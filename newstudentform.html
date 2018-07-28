@@ -13,6 +13,11 @@
     border-style: inset;
     border-width: 1px;
 }
+.box-profile{
+	background-color: red;
+	width: 100px;
+	height: 120px;
+}
 	</style>
 </head>
 <body>
@@ -23,7 +28,12 @@
 
 <hr>
 
+<div class="box-profile">
 
+	<input type="file" name="profile">
+
+
+</div>
 
 	<div class="page">
 		<center>
@@ -91,7 +101,7 @@
 
 
 <center>
-		<div class="box-title"><h2>SECTION B-COURSE DETAILS</h2></div><br>
+		<div class="box-title"><h2>SECTION B-COURSE DETAILS<small>(as in passport)</small></h2></div><br>
 </center>
 Applying for (pleace cirle):<br>
 <select name="Applying-for">
@@ -110,14 +120,15 @@ Applying for (pleace cirle):<br>
 
 </select>
 Applying for(level):<input type="text "name="Applying-for-level">
-
+Date:<input type="date" name="date">
 Full time & Part time :<select name="full-titme-part-time">
 <option>full time</option>
 <option>part time</option>
-</select><br>
-Date:<input type="date" name="date">
+</select>
 
 <button name="save">SEND</button>
+
+
 
 
 </body>
